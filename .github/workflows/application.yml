@@ -139,7 +139,7 @@ jobs:
         with:
           app-name: ${{ vars.WEBAPP }}
           slot-name: ${{ vars.DEPLOYMENT_SLOT }}
-          images: ${{ vars.CONTAINER_REGISTRY }}.azurecr.io/ondfisk-githubdemo:${{ env.IMAGE_TAG }}
+          images: ${{ vars.CONTAINER_REGISTRY }}.azurecr.io/githubdemo:${{ env.IMAGE_TAG }}
         env:
           IMAGE_TAG: ${{ github.ref == 'refs/heads/main' && 'latest' || 'test' }}
 
