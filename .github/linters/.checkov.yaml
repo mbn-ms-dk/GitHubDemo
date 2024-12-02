@@ -1,7 +1,7 @@
 ---
 quiet: true
 skip-check:
-  - CKV_AZURE* # Azure checks are skipped as we rely on Azure Policy instead
+  - CKV_AZURE* # Azure checks are skipped as we rely on Azure Policy instead!
 skip-path:
   - bin
   - obj
