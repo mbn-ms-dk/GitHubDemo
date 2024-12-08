@@ -1,6 +1,6 @@
 using './main.bicep'
 
-param location = 'swedencentral'
+param location = 'germanywestcentral'
 param logAnalyticsWorkspaceId = '/subscriptions/edccd614-120e-4738-9be5-e63d2c6b7b10/resourceGroups/ghdemo/providers/Microsoft.OperationalInsights/workspaces/lawghdemo'
 param appServicePlanId = '/subscriptions/edccd614-120e-4738-9be5-e63d2c6b7b10/resourceGroups/ghdemo/providers/Microsoft.Web/serverfarms/spghdemo'
 param webAppName = 'githubdemo-web'
